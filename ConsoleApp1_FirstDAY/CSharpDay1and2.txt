@@ -1,0 +1,141 @@
+C#.NET
+------
+.NET is framework.
+It supports over 70 languages.
+Most famous is C#.
+
+
+.NET Framework --- creating appls which can be hosted on Windows OS
+
+.NET Core Framework---creating appls which can be hosted on Windows OS/Unix/Mac/ etc
+
+-------------------------------------------------------------------
+
+.NET Framework
+**************
+It is not a language/OS.
+
+
+Framework----> set of rules/frames working for all that confine to the framework
+IDE---Visual Studio---Multiple language support--- C# by default given by VS
+
+FASTER, QUICKER-----WYSIWYG--UI support---user/developer friendly.
+-----------------------------------------------------------------------
+
+C-----> int(2)
+C++---->int(4)
+---------------------------
+1)int (4)----Interoperability
+
+Develop a code in one language----> Other language
+				Interoperable
+2) Learning Curve is low if u know any one language, upgradation becomes faster
+
+Specifications=Rules
+new/New
+
+CTS---> Common (Data)Type System---
+
+object type(Parent of all data types)
+all other types inherit from object.
+int
+float 
+double
+small 
+datetime
+bool 
+string
+char
+--------------------------------------
+Value type: struct and enums
+Reference type: other than struct and enums
+******************************
+Web Application-----> Shopping App---> flipkart,amazon
+
+google,bing------Services created for using on the web.
+translator service------>
+------------------------------------------
+Namespace: Logical collections of classnames, structures and enums along with their 
+members(methods/functions/constants/properties/events etc)
+-----------------------------------------------------
+
+1) write code
+2) save 
+3) compile----> exe of the language compiles the program
+		C#--->(csharp compiler) csc.exe Program.cs 
+
+4) execute-----> Program
+-----------------------------------------------------
+C# Compilation Process
+----------------------
+1. Syntax checked
+2. Language Specific Compiler: csc.exe Source Code
+3. Intermediate Language/Microssoft Intermediate Language/CIL(ASSEMBLY) --ILDASM---(.EXE)
+4. JIT(Just in time) Compiler (takes input of IL code)
+5. Native Machine Code/Language(Binary)
+6. OS
+
+
+CHARACTERISTICS/Properites OF ASSEMBLY:(AssemblyInfo file)
+1) EXTENSION: .EXE
+2) VERSION NUMBER: 1.0.0.0
+3)STACK SIZE: 6
+-----------------------------------------------
+Working with input and output
+-----------------------------------------------
+
+static: static is a keyword.
+	It is used to call the method without creating the object of the class.
+     How to call?
+	Classname.Methodname
+But, If the calling method is in the same class, where the method is written, class name is not needed.
+
+
+
+static int Divide(int i,int j)
+{
+
+
+}
+
+
+static void Subtract(int i,int j)
+{
+
+}
+---------------------------------
+Named and Optional Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
